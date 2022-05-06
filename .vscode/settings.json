@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.cpp_": "cpp",
+        "cmath": "cpp"
+    }
+}
