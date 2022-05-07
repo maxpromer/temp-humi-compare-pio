@@ -3,7 +3,7 @@
 #define DEBUG_INFO    (3)
 #define DEBUG_VERB    (4)
 
-#define DEBUG_LEVEL (4)
+#define DEBUG_LEVEL (1)
 #define DEBUG_SERAIL Serial
 
 #if (DEBUG_LEVEL >= 1)
