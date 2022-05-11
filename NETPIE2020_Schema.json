@@ -1,0 +1,93 @@
+{
+  "additionalProperties": true,
+  "properties": {
+    "batt": {
+      "operation": {
+        "store": {
+          "ttl": "30d"
+        }
+      },
+      "type": "number"
+    },
+    "dht11_temp": {
+      "operation": {
+        "store": {
+          "ttl": "30d"
+        }
+      },
+      "type": "number"
+    },
+    "dht11_humi": {
+      "operation": {
+        "store": {
+          "ttl": "30d"
+        }
+      },
+      "type": "number"
+    },
+    "dht22_temp": {
+      "operation": {
+        "store": {
+          "ttl": "30d"
+        }
+      },
+      "type": "number"
+    },
+    "dht22_humi": {
+      "operation": {
+        "store": {
+          "ttl": "30d"
+        }
+      },
+      "type": "number"
+    },
+    "aht20_temp": {
+      "operation": {
+        "store": {
+          "ttl": "30d"
+        }
+      },
+      "type": "number"
+    },
+    "aht20_humi": {
+      "operation": {
+        "store": {
+          "ttl": "30d"
+        }
+      },
+      "type": "number"
+    },
+    "sht30_temp": {
+      "operation": {
+        "store": {
+          "ttl": "30d"
+        }
+      },
+      "type": "number"
+    },
+    "sht30_humi": {
+      "operation": {
+        "store": {
+          "ttl": "30d"
+        }
+      },
+      "type": "number"
+    },
+    "ds18b20_temp": {
+      "operation": {
+        "store": {
+          "ttl": "30d"
+        }
+      },
+      "type": "number"
+    },
+    "place": {
+      "operation": {
+        "store": {
+          "ttl": "7m"
+        }
+      },
+      "type": "string"
+    }
+  }
+}
