@@ -1,14 +1,6 @@
 {
   "additionalProperties": true,
   "properties": {
-    "batt": {
-      "operation": {
-        "store": {
-          "ttl": "30d"
-        }
-      },
-      "type": "number"
-    },
     "dht11_temp": {
       "operation": {
         "store": {
